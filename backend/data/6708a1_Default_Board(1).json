@@ -1,0 +1,88 @@
+{
+  "boards": [
+    {
+      "id": "771916bb-b516-47c2-8b36-2928ac93487d",
+      "name": "Default Board"
+    }
+  ],
+  "columns": [
+    {
+      "id": "a42dcd19-d4e1-4a89-a07c-ab20d073383b",
+      "boardId": "771916bb-b516-47c2-8b36-2928ac93487d",
+      "title": "To Do",
+      "color": "#42A5F5",
+      "order": 100
+    },
+    {
+      "id": "b9e50012-3b58-4576-957c-25510a04039a",
+      "boardId": "771916bb-b516-47c2-8b36-2928ac93487d",
+      "title": "In Progress",
+      "color": "#FFB300",
+      "order": 200
+    },
+    {
+      "id": "07ff3a4e-568d-4c1d-b180-457bc6b9755e",
+      "boardId": "771916bb-b516-47c2-8b36-2928ac93487d",
+      "title": "Done",
+      "color": "#66BB6A",
+      "order": 300
+    }
+  ],
+  "tasks": [
+    {
+      "id": "395430c3-a43b-4fc9-b778-cece69fb47f2",
+      "columnId": "a42dcd19-d4e1-4a89-a07c-ab20d073383b",
+      "title": "Welcome to TaskPhase!",
+      "description": "This is your first task.",
+      "tags": [],
+      "dueDate": null,
+      "order": 0
+    },
+    {
+      "id": "52bb31c0-99d0-4b46-bf2e-ae13d390a329",
+      "columnId": "b9e50012-3b58-4576-957c-25510a04039a",
+      "title": "You can drag tasks and columns around",
+      "description": "Drag me!",
+      "tags": [],
+      "dueDate": null,
+      "order": 0
+    },
+    {
+      "id": "4e346f1c-65e1-4597-9730-d27948945cae",
+      "columnId": "b9e50012-3b58-4576-957c-25510a04039a",
+      "title": "Click on a tag to open it",
+      "description": "From here you can edit and delete tasks",
+      "tags": [],
+      "dueDate": null,
+      "order": 1
+    },
+    {
+      "id": "2fff248b-7f8c-4473-bd33-cc81f29da33c",
+      "columnId": "07ff3a4e-568d-4c1d-b180-457bc6b9755e",
+      "title": "Create tasks, columns and tags",
+      "description": "Everything can be edited or deleted",
+      "tags": [],
+      "dueDate": null,
+      "order": 0
+    },
+    {
+      "id": "9197752d-95fe-4e15-812c-9c6ba54857c0",
+      "columnId": "07ff3a4e-568d-4c1d-b180-457bc6b9755e",
+      "title": "Try filter by a tag",
+      "description": "add some tags in the sidebar",
+      "tags": [
+        "e83a162d-bc4b-43ab-9434-4266b4385abc"
+      ],
+      "dueDate": null,
+      "order": 1
+    }
+  ],
+  "tags": [
+    {
+      "id": "e83a162d-bc4b-43ab-9434-4266b4385abc",
+      "boardId": "771916bb-b516-47c2-8b36-2928ac93487d",
+      "title": "Bug",
+      "color": "#e53935"
+    }
+  ]
+}
